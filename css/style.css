@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    width:100vw;
+    background: #11100b;
+    background-image: radial-gradient(#3b2710 1px, transparent 0);
+    background-size: 30px 30px;
+}
+
+.title h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem;
+    padding: 10rem 0 2.5rem 0;
+    color: #FAB621;
+}
+
+.main {
+    font-family: 'VT323', monospace;
+    color: #FAB621;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+    background-color: #11100b;
+    border: 1px solid #FAB621;
+    padding: 40px;
+    margin: 0 10px 0 10px;
+    width: 40vw;
+    height: auto;
+}
+
+.form-box p{
+    font-size: 1.3rem;
+    padding: 0 0 20px 0;
+}
+
+.msg-box {
+    border: 1px solid #FAB621;
+    background-color: #11100b;
+    padding: 40px;
+    margin: 0 10px 0 10px;
+    width: 40vw;
+    height: auto;
+    
+}
+
+.msg-box p{
+    font-size: 1.3rem;
+    padding: 0 0 20px 0;
+}
+
+.btn {
+    font-family: 'VT323', monospace;
+    font-size: 1.3rem;
+    border: 0;
+    color: #11100b;
+    background-color: #FAB621;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.text-input {
+    font-family: 'VT323', monospace;
+    font-size: 1.3rem;
+    color: #60401A;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    height: 7rem;
+}
+
+.console{
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    color: #FAB621;
+    padding: 5rem 0 2.5rem 0;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}

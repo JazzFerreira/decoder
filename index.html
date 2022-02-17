@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRYPTO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="title">
+        <h1>ENCRYPTO</h1>
+    </div>
+
+  <main class="main">
+    <section class="form-box">
+        <p>Apenas letras minúsculas e sem acento.</p>
+      <form action="">   
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui">
+        <input class="btn" type="submit" value="criptografar" id="btn-cripto">
+        <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+      </form>
+    </section>
+  
+    <section class="msg-box">
+      <p>Mensagem criptografada:</p>
+      <input class="text-input" type="text" id="msg">
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+         
+  </main>
+    
+    <div class="console">
+        <span id="up-error"></span><br>
+        <span id="ch-error"></span><br>
+        <span id="encrypt-msg"></span><br>
+        <span id="decrypt-msg"></span><br>
+    </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
