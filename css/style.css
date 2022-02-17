@@ -10,6 +10,7 @@ body {
     background: #11100b;
     background-image: radial-gradient(#3b2710 1px, transparent 0);
     background-size: 30px 30px;
+    background-position: -19px -19px;
 }
 
 .title h1{
